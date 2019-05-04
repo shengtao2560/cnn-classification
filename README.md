@@ -28,7 +28,7 @@
 
 ## 可视化
 
-- tb.bat 运行后http://localhost:6006连接tensorboard
+- tb.bat 运行后http://localhost:6006 连接tensorboard
 
 ## 预测
 
