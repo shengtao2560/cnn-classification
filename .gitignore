@@ -1,0 +1,8 @@
+.DS_Store
+data/drug
+__pycache__
+.idea
+*.pyc
+*.xls
+checkpoints
+log
