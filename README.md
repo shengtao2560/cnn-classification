@@ -18,6 +18,7 @@
 - drug.train.txt: 训练集
 - drug.val.txt: 验证集
 - drug.test.txt: 测试集
+
 按10:1:2划分
 
 ## 训练与测试
