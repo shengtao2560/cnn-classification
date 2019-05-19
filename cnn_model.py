@@ -27,7 +27,7 @@ class TextCNN(object):
         self.cnn()
 
     def cnn(self):
-        with tf.device('/cpu:0'):
+        with tf.device('/gpu:0'):
             embedding = tf.get_variable('embedding', [self.config.vocab_size, self.config.embedding_dim])
             embedding_inputs = tf.nn.embedding_lookup(embedding, self.input_x)
 
